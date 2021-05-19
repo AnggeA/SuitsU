@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login & Signup Form</title>
+	<title>Suits U</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-	<div class="wrapper">
+	<header>
+		
+		<a href="#"><label>Suits U</label></a>
+
+		<input type="text" name="search" placeholder="Search">
+		<img src="img/search.webp" class="search-img">
+		<a href="#loginPage"><img src="img/user.webp" class="user-img"></a>
+		<a href="#"><img src="" class=""></a>
+
+	</header>
+
+
+<div class="wrapper" id="loginPage">
 		<div class="title-text">
 			<div class="title login">Suits U</div>
 		</div>
@@ -104,6 +116,7 @@
 			return false;
 		});
 	</script>
+
 
 </body>
 </html>
