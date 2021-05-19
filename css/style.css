@@ -12,14 +12,15 @@ height: 80px;
 width: 100%;
 background: -webkit-linear-gradient(left, #a445b2, #fa4299);
 
+
 }
 
 header input{
 
-	height: 50%;
+	height: 45%;
 	width: 40%;
 	margin-left: 25%;
-	margin-top: 15px;
+	margin-top: 20px;
 	padding-left:20px; 
 	outline: none;
 	position: absolute;
@@ -33,18 +34,70 @@ header label{
 	font-size: 30px;
 	font-family: Rockwell;
 	font-weight: 500;
+	color: #fff;
 	padding: 20px;
 	position: absolute;
 }
 
-header .search-btn{
-
-	width: 70px;
-	height: 36px;
-	padding:5px;
+header .search-img{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background: transparent;
 	margin-left: 66%;
-	background-size: (100%,100%);
+	margin-top: 18px;
+}
+header .user-img{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background: transparent;
+	margin-left: 93%;
+	margin-top: 12px;
+	
+}
 
+header .prod-img{
+	position: absolute;
+	width: 50px;
+	height: 44px;
+	background: transparent;
+	margin-left: 75%;
+	margin-top: 22px;
+	
+}
+
+header .wishlist-img{
+
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background: transparent;
+	margin-left: 81%;
+	margin-top: 22px;
+	
+}
+
+
+header .cart-img{
+
+	position: absolute;
+	width: 45px;
+	height: 43px;
+	background: transparent;
+	margin-left: 87%;
+	margin-top: 18px;
+	
+}
+
+header .user-img1{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background: transparent;
+	margin-left: 93%;
+	margin-top: 20px;
+	
 }
 
 
@@ -60,6 +113,12 @@ header .search-btn{
 	transform: translateX(-50%);
 	position: absolute;
 	box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+	visibility: hidden;
+	opacity: 0;
+}
+.wrapper:target{
+	visibility: visible;
+	opacity: 1;
 }
 .wrapper .title-text{
 	display: flex;
@@ -246,3 +305,5 @@ form .fieldbtn input[type="submit"]{
 	cursor: pointer;
 	background: -webkit-linear-gradient(left, #a445b2, #fa4299);
 }
+
+/*seller*/
